@@ -1,0 +1,3 @@
+echo,cat
+yell,./srv/yell.bin
+flt,./srv/fault.bin
