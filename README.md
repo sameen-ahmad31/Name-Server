@@ -3,7 +3,7 @@ I developed a Name Server program in C, serving as a crucial intermediary enabli
 
 For instance, consider a scenario where a client wishes to inquire about the Wi-Fi strength on their system. To achieve this, the client would communicate with the service identified by the name "network_monitor." The analogy of a browser and DNS comes to mind, where entering a human-readable address in the browser's address bar leads to the conversion of that address into a numeric IP address to identify the server.
 
-Three classes of software make up this system:
+Three categories of software construct this system:
 <br>
 1. Clients - Utilizing "req" (built using req.c) as a representative client. "req" operates in a pipeline fashion, forwarding data read from its standard input to the server and writing the received server response to its standard output
 
